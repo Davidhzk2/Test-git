@@ -1,0 +1,17 @@
+Comandos GIT 
+
+Git fue creado por el mismo creador de Linux lo que hace que su consola sea
+basada en linux
+
+-GIT es una herramienta para el manejo de versiones 
+-GitHub es una plataforma para montar o alojar proyectos(repositorios) de forma gratuita
+
+Working directory - Stage - 
+
+ls  -->listar directorios de la ruta actual
+pwd -->Mostrar en que ruta esta ubicado
+
+git --version   -->Saber que version de git esta instalada en la maquina 
+git config --list --> Lista de configuracion global en nuestra maquina 
+git config --global user.name "nombreuser"--> Cambiar o fijar nombre de usuario
+git congig --global user.email "correo" --> Cabiar o fijar correo de git 
