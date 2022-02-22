@@ -35,5 +35,7 @@ git commit -m "mensaje" -->agregar un comentario a los archivos que estan en sta
 git diff -->comparar archivo de stagin con archivo local permite ver diferencias
 git reset HEAD nombreArchivo -->Para resetear el ultimo commit  que se agrego y desahacer una modificación, eliminar commit del stage
 
-git log --> Para ver los commits que se han creado
- 
+git log --> Para ver los commits o lista de cambios que se han hecho
+
+------ vamos a probar como revertir a commits anteriores
+
