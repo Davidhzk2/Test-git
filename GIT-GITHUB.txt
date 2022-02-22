@@ -11,6 +11,8 @@ Working directory - Staging area - .git diretory (Reposiotrio)
 
 --Linux 
 ls  -->listar directorios de la ruta actual
+ls -a  -->listar directorios y archivos incluyendo los que están ocultos 
+ls -al -->Listar archivos y directorios con información detallada 
 pwd -->Mostrar en que ruta esta ubicado actualmente 
 touch --> Crear archivos 
 mkdir --> Crear directorios(carpetas)
@@ -26,5 +28,12 @@ git congig --global user.email "correo" --> Cabiar o fijar correo de git
 git init --> Inicializar un proyecto
 git add README.md --> agregar README al repositorio o proyecto 
 
-git add .   --> agregar todos los archivos modificados al staging area 
-git add nombreArchivo -->Agregar por archivo modificado al staging area 
+git add .               --> agregar todos los archivos modificados al staging area 
+git add nombreArchivo   -->Agregar por archivo modificado al staging area 
+git commit -m "mensaje" -->agregar un comentario a los archivos que estan en stage
+
+git diff -->comparar archivo de stagin con archivo local permite ver diferencias
+git reset HEAD nombreArchivo -->Para resetear el ultimo commit  que se agrego y desahacer una modificación, eliminar commit del stage
+
+git log --> Para ver los commits que se han creado
+ 
