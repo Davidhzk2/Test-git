@@ -6,12 +6,25 @@ basada en linux
 -GIT es una herramienta para el manejo de versiones 
 -GitHub es una plataforma para montar o alojar proyectos(repositorios) de forma gratuita
 
-Working directory - Stage - 
+Estados para el manejo de versiones  
+Working directory - Staging area - .git diretory (Reposiotrio)
 
+--Linux 
 ls  -->listar directorios de la ruta actual
-pwd -->Mostrar en que ruta esta ubicado
+pwd -->Mostrar en que ruta esta ubicado actualmente 
+touch --> Crear archivos 
+mkdir --> Crear directorios(carpetas)
+
+ctrk + l --> Limpiar la consola 
+-----
 
 git --version   -->Saber que version de git esta instalada en la maquina 
 git config --list --> Lista de configuracion global en nuestra maquina 
 git config --global user.name "nombreuser"--> Cambiar o fijar nombre de usuario
 git congig --global user.email "correo" --> Cabiar o fijar correo de git 
+
+git init --> Inicializar un proyecto
+git add README.md --> agregar README al repositorio o proyecto 
+
+git add .   --> agregar todos los archivos modificados al staging area 
+git add nombreArchivo -->Agregar por archivo modificado al staging area 
