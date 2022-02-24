@@ -29,13 +29,32 @@ git init --> Inicializar un proyecto
 git add README.md --> agregar README al repositorio o proyecto 
 
 git add .               --> agregar todos los archivos modificados al staging area 
-git add nombreArchivo   -->Agregar por archivo modificado al staging area 
+git add <nombreArchivo>   -->Agregar por archivo modificado al staging area 
 git commit -m "mensaje" -->agregar un comentario a los archivos que estan en stage
 
 git diff -->comparar archivo de stagin con archivo local permite ver diferencias
-git reset HEAD nombreArchivo -->Para resetear el ultimo commit  que se agrego y desahacer una modificación, eliminar commit del stage
+git reset HEAD <nombreArchivo> -->Para resetear el ultimo commit  que se agrego y desahacer una modificación, eliminar commit del stage
 
 git log --> Para ver los commits o lista de cambios que se han hecho
 
------- vamos a probar como revertir a commits anteriores
+git chechout <hash-commit> -->Revertir cambios a commits anteriores 
+
+git remote add <url-repositorio> -->para conectar el repositorio local con la nube
+git push -u origin <name-branch> -->Para subir los cambios de stage al repositorio
+
+git branch --> Mostrar ramas que se han creado en el proyecto 
+git branch <name-branch>  --> Crear un nueva rama de forma local 
+git checkout <name-branch>  -->Cambiar de rama
+git branch -de <name-branch> -->Eliminar rama
+
+git merge <name-branch> -->Agregar o juntar cambios de otra rama a la rama actual
+
+git pull origin <name-branch> -->Descargar lo que hay en la nube a nuestro repositorio local 
+
+git commit --amend --> Editar la drescripción de un commit, solo de le hace al commit más reciente 
+
+
+
+
+
 
