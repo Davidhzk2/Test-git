@@ -15,8 +15,8 @@ ls -a  -->listar directorios y archivos incluyendo los que están ocultos
 ls -al -->Listar archivos y directorios con información detallada 
 pwd -->Mostrar en que ruta esta ubicado actualmente 
 touch --> Crear archivos 
-mkdir --> Crear directorios(carpetas)
-
+mkdir <nombreDirectorio> --> Crear directorios(carpetas)
+rm <nombreArchivo>  -->remover un archivo
 ctrk + l --> Limpiar la consola 
 -----
 
@@ -56,6 +56,8 @@ git commit --amend "mensaje commit"--> Editar la drescripción de un commit, sol
 
 git clone <url> -->Clonar un repositorio de la nube en mi PC
 git status  -->ver archivos modificados o estado de lo que estamos trabajando 
+
+git branch <name-branch> --> Crear una rama en el repositorio
 
 
 
