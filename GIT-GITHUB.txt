@@ -51,7 +51,11 @@ git merge <name-branch> -->Agregar o juntar cambios de otra rama a la rama actua
 
 git pull origin <name-branch> -->Descargar lo que hay en la nube a nuestro repositorio local 
 
-git commit --amend --> Editar la drescripción de un commit, solo de le hace al commit más reciente 
+git commit --amend "mensaje commit"--> Editar la drescripción de un commit, solo de le hace al commit más reciente 
+
+
+git clone <url> -->Clonar un repositorio de la nube en mi PC
+git status  -->ver archivos modificados o estado de lo que estamos trabajando 
 
 
 
