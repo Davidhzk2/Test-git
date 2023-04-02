@@ -42,10 +42,13 @@ git chechout <hash-commit> -->Revertir cambios a commits anteriores
 git remote add <url-repositorio> -->para conectar el repositorio local con la nube
 git push -u origin <name-branch> -->Para subir los cambios de stage al repositorio
 
+
+// Ramas 
 git branch --> Mostrar ramas que se han creado en el proyecto 
 git branch <name-branch>  --> Crear un nueva rama de forma local 
 git checkout <name-branch>  -->Cambiar de rama
 git branch -de <name-branch> -->Eliminar rama
+git branch -m <name-branch>  --> Cambiar el nombre de una rama
 
 git merge <name-branch> -->Agregar o juntar cambios de otra rama a la rama actual
 
