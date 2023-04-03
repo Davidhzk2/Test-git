@@ -21,9 +21,12 @@ ctrk + l --> Limpiar la consola
 -----
 
 git --version   -->Saber que version de git esta instalada en la maquina 
+
+//Configuración 
 git config --list --> Lista de configuracion global en nuestra maquina 
 git config --global user.name "nombreuser"--> Cambiar o fijar nombre de usuario
 git congig --global user.email "correo" --> Cabiar o fijar correo de git 
+git config --global alias.<Alias> "comando al que se le quiere poner un alias"  //"git log --graph --decorate --all --oneline
 
 git init --> Inicializar un proyecto
 git add README.md --> agregar README al repositorio o proyecto 
