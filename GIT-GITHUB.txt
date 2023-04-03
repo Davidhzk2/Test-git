@@ -37,14 +37,18 @@ git commit -m "mensaje" -->agregar un comentario a los archivos que estan en sta
 
 git diff -->comparar archivo de stagin con archivo local permite ver diferencias
 git reset HEAD <nombreArchivo> -->Para resetear el ultimo commit  que se agrego y desahacer una modificación, eliminar commit del stage
+git reset --hard <HASH>  -->ubicarse en un momento especifico de los commits
 
 git log --> Para ver los commits o lista de cambios que se han hecho
 git log --graph  --> ver los commits como una rama o el orden 
 git log --graph  --pretty=oneline  --> ver los commits realizados de manara resumida en una linea
 git log --graph --decorate --all --oneline --> Abreviar el hash del commit y ver todos los commits en una linea 
 
+git reflog   --> historial de interaciones que se han hecho en el git 
+
 git checkout <hash-commit> -->Revertir cambios a commits anteriores 
 git checkout <FileNama> -->Revertir los cambios de un archivo especifio a su version anterior
+gti checkout HEAD  --> ubicar el track (hash) donde nos encontramos adelante 
 
 git remote add <url-repositorio> -->para conectar el repositorio local con la nube
 git push -u origin <name-branch> -->Para subir los cambios de stage al repositorio
@@ -57,12 +61,18 @@ git checkout <name-branch>  -->Cambiar de rama
 git branch -de <name-branch> -->Eliminar rama
 git branch -m <name-branch>  --> Cambiar el nombre de una rama
 
+//tags 
+git tag --> ver los tags que se han creado
+git tag <nameTag> --> nombrar una parte de lo que se ha hecho.(identificar)
+git  checkout tag/<nameTag>  --> Cambiar a un tag en especifico
+
 git merge <name-branch> -->Agregar o juntar cambios de otra rama a la rama actual
 
 git pull origin <name-branch> -->Descargar lo que hay en la nube a nuestro repositorio local 
 
 git commit --amend "mensaje commit"--> Editar la drescripción de un commit, solo de le hace al commit más reciente 
 
+clear -->Limpiar la consola 
 
 git clone <url> -->Clonar un repositorio de la nube en mi PC
 git status  -->ver archivos modificados o estado de lo que estamos trabajando 
