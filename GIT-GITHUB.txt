@@ -74,6 +74,7 @@ git commit --amend "mensaje commit"--> Editar la drescripción de un commit, sol
 
 clear -->Limpiar la consola 
 
+//
 git clone <url> -->Clonar un repositorio de la nube en mi PC
 git status  -->ver archivos modificados o estado de lo que estamos trabajando 
 
