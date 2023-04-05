@@ -22,14 +22,15 @@ ctrk + l --> Limpiar la consola
 
 git --version   -->Saber que version de git esta instalada en la maquina 
 
+git init --> Inicializar un proyecto
+git add README.md --> agregar README al repositorio o proyecto 
+
 //Configuración 
 git config --list --> Lista de configuracion global en nuestra maquina 
 git config --global user.name "nombreuser"--> Cambiar o fijar nombre de usuario
-git congig --global user.email "correo" --> Cabiar o fijar correo de git 
-git config --global alias.<Alias> "comando al que se le quiere poner un alias"  //"git log --graph --decorate --all --oneline
+git config --global user.email "correo" --> Cabiar o fijar correo de git 
+git config --global alias.<Alias> "comando al que se le quiere poner un alias"  //'log --graph --decorate --all --oneline'
 
-git init --> Inicializar un proyecto
-git add README.md --> agregar README al repositorio o proyecto 
 
 git add .               --> agregar todos los archivos modificados al staging area 
 git add <nombreArchivo>   -->Agregar por archivo modificado al staging area 
@@ -57,19 +58,21 @@ git push -u origin <name-branch> -->Para subir los cambios de stage al repositor
 // Ramas 
 git branch --> Mostrar ramas que se han creado en el proyecto 
 git branch <name-branch>  --> Crear un nueva rama de forma local 
-git checkout <name-branch>  -->Cambiar de rama
+git swicth <name-branch> --> Cambiar de rama 
+git checkout <name-branch>  --> descargar los cambiios de la rama y Cambiar de rama
 git branch -de <name-branch> -->Eliminar rama
 git branch -m <name-branch>  --> Cambiar el nombre de una rama
+
+git merge <name-branch> -->Agregar o juntar cambios de otra rama a la rama actual
+
 
 //tags 
 git tag --> ver los tags que se han creado
 git tag <nameTag> --> nombrar una parte de lo que se ha hecho.(identificar)
 git  checkout tag/<nameTag>  --> Cambiar a un tag en especifico
 
-git merge <name-branch> -->Agregar o juntar cambios de otra rama a la rama actual
 
 git pull origin <name-branch> -->Descargar lo que hay en la nube a nuestro repositorio local 
-
 git commit --amend "mensaje commit"--> Editar la drescripción de un commit, solo de le hace al commit más reciente 
 
 clear -->Limpiar la consola 
