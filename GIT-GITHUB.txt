@@ -35,6 +35,7 @@ git config --global alias.<Alias> "comando al que se le quiere poner un alias"  
 git add .               --> agregar todos los archivos modificados al staging area 
 git add <nombreArchivo>   -->Agregar por archivo modificado al staging area 
 git commit -m "mensaje" -->agregar un comentario a los archivos que estan en stage
+git commit --amend -->editar la descripcion de un commit, solo al más reciente
 
 git diff -->comparar archivo de stagin con archivo local permite ver diferencias
 git reset HEAD <nombreArchivo> -->Para resetear el ultimo commit  que se agrego y desahacer una modificación, eliminar commit del stage
@@ -60,7 +61,7 @@ git branch --> Mostrar ramas que se han creado en el proyecto
 git branch <name-branch>  --> Crear un nueva rama de forma local 
 git swicth <name-branch> --> Cambiar de rama 
 git checkout <name-branch>  --> descargar los cambiios de la rama y Cambiar de rama
-git branch -de <name-branch> -->Eliminar rama
+git branch -d <name-branch> -->Eliminar rama
 git branch -m <name-branch>  --> Cambiar el nombre de una rama
 
 git merge <name-branch> -->Agregar o juntar cambios de otra rama a la rama actual
