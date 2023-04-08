@@ -66,6 +66,11 @@ git branch -m <name-branch>  --> Cambiar el nombre de una rama
 
 git merge <name-branch> -->Agregar o juntar cambios de otra rama a la rama actual
 
+git stash -->guardar cambios de manera temporal sin que sea un commit y afecte el arbol
+git stash list --> mostrar la lista de de cambios guardados que no se han subido 
+git stash pop -->Recuperar o volver a un stash guardado
+git stash drop --> eliminar  un stash 
+
 
 //tags 
 git tag --> ver los tags que se han creado
