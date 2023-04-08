@@ -38,6 +38,7 @@ git commit -m "mensaje" -->agregar un comentario a los archivos que estan en sta
 git commit --amend -->editar la descripcion de un commit, solo al más reciente
 
 git diff -->comparar archivo de stagin con archivo local permite ver diferencias
+git diff <nameBranch> --> ver las diferencias o cambios entre las ramas
 git reset HEAD <nombreArchivo> -->Para resetear el ultimo commit  que se agrego y desahacer una modificación, eliminar commit del stage
 git reset --hard <HASH>  -->ubicarse en un momento especifico de los commits
 
