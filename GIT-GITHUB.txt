@@ -31,7 +31,6 @@ git config --global user.name "nombreuser"--> Cambiar o fijar nombre de usuario
 git config --global user.email "correo" --> Cabiar o fijar correo de git 
 git config --global alias.<Alias> "comando al que se le quiere poner un alias"  //'log --graph --decorate --all --oneline'
 
-
 git add .               --> agregar todos los archivos modificados al staging area 
 git add <nombreArchivo>   -->Agregar por archivo modificado al staging area 
 git commit -m "mensaje" -->agregar un comentario a los archivos que estan en stage
@@ -55,7 +54,6 @@ gti checkout HEAD  --> ubicar el track (hash) donde nos encontramos adelante
 
 git remote add <url-repositorio> -->para conectar el repositorio local con la nube
 git push -u origin <name-branch> -->Para subir los cambios de stage al repositorio
-
 
 // Ramas 
 git branch --> Mostrar ramas que se han creado en el proyecto 
