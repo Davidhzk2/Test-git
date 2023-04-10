@@ -20,7 +20,12 @@ rm <nombreArchivo>  -->remover un archivo
 ctrk + l --> Limpiar la consola 
 -----
 
+//Hoja de comandos mas usados 
+https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
+
 git --version   -->Saber que version de git esta instalada en la maquina 
+
+
 
 git init --> Inicializar un proyecto
 git add README.md --> agregar README al repositorio o proyecto 
