@@ -16,35 +16,40 @@ ls -al -->Listar archivos y directorios con información detallada
 pwd -->Mostrar en que ruta esta ubicado actualmente 
 touch --> Crear archivos 
 mkdir <nombreDirectorio> --> Crear directorios(carpetas)
-rm <nombreArchivo>  -->remover un archivo
+rm [file]  -->remover un archivo
 ctrk + l --> Limpiar la consola 
 -----
 
 //Hoja de comandos mas usados 
 https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
 
-git --version   -->Saber que version de git esta instalada en la maquina 
-
-
-
-git init --> Inicializar un proyecto
-git add README.md --> agregar README al repositorio o proyecto 
+git --version   -->Saber que ve<nombreArchivo>rsion de git esta instalada en la maquina 
 
 //Configuración 
 git config --list --> Lista de configuracion global en nuestra maquina 
 git config --global user.name "nombreuser"--> Cambiar o fijar nombre de usuario
 git config --global user.email "correo" --> Cabiar o fijar correo de git 
-git config --global alias.<Alias> "comando al que se le quiere poner un alias"  //'log --graph --decorate --all --oneline'
+git config --global alias.[alias] "comando al que se le quiere poner un alias"  //'log --graph --decorate --all --oneline'
 
-git add .               --> agregar todos los archivos modificados al staging area 
-git add <nombreArchivo>   -->Agregar por archivo modificado al staging area 
-git commit -m "mensaje" -->agregar un comentario a los archivos que estan en stage
-git commit --amend -->editar la descripcion de un commit, solo al más reciente
+//Crear Repositorios
+git init [proyect-name]  --> Inicializar un proyecto
+git clone [url] --> Clonar un repositorio de la nuve
+
+
+//Cambios 
+git status  -->ver archivos modificados o estado de lo que estamos trabajando 
+git add README.md --> agregar README al repositorio o proyecto 
 
 git diff -->comparar archivo de stagin con archivo local permite ver diferencias
 git diff <nameBranch> --> ver las diferencias o cambios entre las ramas
-git reset HEAD <nombreArchivo> -->Para resetear el ultimo commit  que se agrego y desahacer una modificación, eliminar commit del stage
-git reset --hard <HASH>  -->ubicarse en un momento especifico de los commits
+git reset HEAD [file] -->Para resetear el ultimo commit  que se agrego y desahacer una modificación, eliminar commit del stage
+git reset --hard [hash]  -->ubicarse en un momento especifico de los commits
+
+git add .               --> agregar todos los archivos modificados al staging area 
+git add [file]   -->Agregar por archivo modificado al staging area 
+git commit -m "mensaje" -->agregar un comentario a los archivos que estan en stage
+git commit --amend -->editar la descripcion de un commit, solo al más reciente
+
 
 git log --> Para ver los commits o lista de cambios que se han hecho
 git log --graph  --> ver los commits como una rama o el orden 
@@ -54,21 +59,21 @@ git log --graph --decorate --all --oneline --> Abreviar el hash del commit y ver
 git reflog   --> historial de interaciones que se han hecho en el git 
 
 git checkout <hash-commit> -->Revertir cambios a commits anteriores 
-git checkout <FileNama> -->Revertir los cambios de un archivo especifio a su version anterior
+git checkout [file] -->Revertir los cambios de un archivo especifio a su version anterior
 gti checkout HEAD  --> ubicar el track (hash) donde nos encontramos adelante 
 
 git remote add <url-repositorio> -->para conectar el repositorio local con la nube
-git push -u origin <name-branch> -->Para subir los cambios de stage al repositorio
+git push -u origin [branch-name] -->Para subir los cambios de stage al repositorio
 
 // Ramas 
 git branch --> Mostrar ramas que se han creado en el proyecto 
-git branch <name-branch>  --> Crear un nueva rama de forma local 
-git swicth <name-branch> --> Cambiar de rama 
-git checkout <name-branch>  --> descargar los cambiios de la rama y Cambiar de rama
-git branch -d <name-branch> -->Eliminar rama
-git branch -m <name-branch>  --> Cambiar el nombre de una rama
+git branch [branch-name]  --> Crear un nueva rama de forma local 
+git swicth [branch-name] --> Cambiar de rama 
+git checkout [branch-name]  --> descargar los cambiios de la rama y Cambiar de rama
+git branch -d [branch-name] -->Eliminar rama
+git branch -m [branch-name]  --> Cambiar el nombre de una rama
 
-git merge <name-branch> -->Agregar o juntar cambios de otra rama a la rama actual
+git merge [branch-name] -->Agregar o juntar cambios de otra rama a la rama actual
 
 git stash -->guardar cambios de manera temporal sin que sea un commit y afecte el arbol
 git stash list --> mostrar la lista de de cambios guardados que no se han subido 
@@ -78,20 +83,19 @@ git stash drop --> eliminar  un stash
 
 //tags 
 git tag --> ver los tags que se han creado
-git tag <nameTag> --> nombrar una parte de lo que se ha hecho.(identificar)
-git  checkout tag/<nameTag>  --> Cambiar a un tag en especifico
+git tag [tag-name] --> nombrar una parte de lo que se ha hecho.(identificar)
+git  checkout tag/[tag-name]  --> Cambiar a un tag en especifico
 
 
-git pull origin <name-branch> -->Descargar lo que hay en la nube a nuestro repositorio local 
+git pull origin [branch-name] -->Descargar lo que hay en la nube a nuestro repositorio local 
 git commit --amend "mensaje commit"--> Editar la drescripción de un commit, solo de le hace al commit más reciente 
 
 clear -->Limpiar la consola 
 
 //
-git clone <url> -->Clonar un repositorio de la nube en mi PC
-git status  -->ver archivos modificados o estado de lo que estamos trabajando 
+git clone [url] -->Clonar un repositorio de la nube en mi PC
 
-git branch <name-branch> --> Crear una rama en el repositorio
+git branch [branch-name] --> Crear una rama en el repositorio
 
 
 
