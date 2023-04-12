@@ -62,7 +62,7 @@ git checkout <hash-commit> -->Revertir cambios a commits anteriores
 git checkout [file] -->Revertir los cambios de un archivo especifio a su version anterior
 gti checkout HEAD  --> ubicar el track (hash) donde nos encontramos adelante 
 
-git remote add <url-repositorio> -->para conectar el repositorio local con la nube
+git remote add [url] -->para conectar el repositorio local con la nube
 git push -u origin [branch-name] -->Para subir los cambios de stage al repositorio
 
 // Ramas 
