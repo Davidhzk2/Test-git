@@ -9,6 +9,7 @@ Podras encontrar comandos para:
 
 **Configurar**
 `git init
+
 git clone`
 **Crear repositorios**
 **Efectuar cambios**
