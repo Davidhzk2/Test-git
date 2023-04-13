@@ -51,6 +51,8 @@ git commit -m "mensaje" -->agregar un comentario a los archivos que estan en sta
 git commit --amend -->editar la descripcion de un commit, solo al más reciente
 
 
+
+//Historial de cambios
 git log --> Para ver los commits o lista de cambios que se han hecho
 git log --graph  --> ver los commits como una rama o el orden 
 git log --graph  --pretty=oneline  --> ver los commits realizados de manara resumida en una linea
