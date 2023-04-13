@@ -23,7 +23,7 @@ ctrk + l --> Limpiar la consola
 //Hoja de comandos mas usados 
 https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
 
-git --version   -->Saber que ve<nombreArchivo>rsion de git esta instalada en la maquina 
+git --version   -->Saber que version de git esta instalada en la maquina 
 
 //Configuración 
 git config --list --> Lista de configuracion global en nuestra maquina 
@@ -41,7 +41,7 @@ git status  -->ver archivos modificados o estado de lo que estamos trabajando
 git add README.md --> agregar README al repositorio o proyecto 
 
 git diff -->comparar archivo de stagin con archivo local permite ver diferencias
-git diff <nameBranch> --> ver las diferencias o cambios entre las ramas
+git diff [branch] --> ver las diferencias o cambios entre las ramas
 git reset HEAD [file] -->Para resetear el ultimo commit  que se agrego y desahacer una modificación, eliminar commit del stage
 git reset --hard [hash]  -->ubicarse en un momento especifico de los commits
 
@@ -49,8 +49,6 @@ git add .               --> agregar todos los archivos modificados al staging ar
 git add [file]   -->Agregar por archivo modificado al staging area 
 git commit -m "mensaje" -->agregar un comentario a los archivos que estan en stage
 git commit --amend -->editar la descripcion de un commit, solo al más reciente
-
-
 
 //Historial de cambios
 git log --> Para ver los commits o lista de cambios que se han hecho
@@ -60,7 +58,7 @@ git log --graph --decorate --all --oneline --> Abreviar el hash del commit y ver
 
 git reflog   --> historial de interaciones que se han hecho en el git 
 
-git checkout <hash-commit> -->Revertir cambios a commits anteriores 
+git checkout [hash] -->Revertir cambios a commits anteriores 
 git checkout [file] -->Revertir los cambios de un archivo especifio a su version anterior
 gti checkout HEAD  --> ubicar el track (hash) donde nos encontramos adelante 
 
