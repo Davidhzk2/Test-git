@@ -93,13 +93,26 @@ git  checkout tag/[tag-name]  --> Cambiar a un tag en especifico
 
 
 //Sincronizar cambios 
+git fetch -->descargar el historial de cambios del repositorio
+git push  -->Subir  los cambios o commits de la rama local  a respositorio 
 git push -u origin [branch-name] -->Para subir los cambios de stage al repositorio por primera vez
 git push orgin [branch-name]  -->subir cambios a la rama espeficada
-git pull origin [branch-name] -->Descargar lo que hay en la nube a nuestro repositorio local 
+git pull origin [branch-name] -->Descargar historial e incomporar cambiosa nuestro respositorio
 
 
 //Consola
 clear -->Limpiar la consola 
+
+
+// Flujo de trabajo colaborativo 
+
+Si no puedes  subir tus cambios al respositorio original, por algun motivo como permisos, o el repo es privado.
+
+- Hacer un fork del repositorio original 
+- Clonar el repositorio
+- Realizar los cambios que quieres o necesita el proyecto 
+- subir los cambios al repo 
+- hacer un pull request al repo original
 
 
 
