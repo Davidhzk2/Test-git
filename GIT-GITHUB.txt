@@ -105,15 +105,14 @@ clear -->Limpiar la consola
 
 
 // Flujo de trabajo colaborativo 
-
-Si no puedes  subir tus cambios al respositorio original, por algun motivo como permisos, o el repo es privado.
+Si no puedes  subir tus cambios al respositorio original, por algun motivo como permisos, o el repo es privado o simplemente quieres colaboara ens ese repositorio, puedes seguir los siguientes pasos:
 
 - Hacer un fork del repositorio original 
-- Clonar el repositorio
+- Clonar el repositorio para que se descarguen en tu maquina
 - Realizar los cambios que quieres o necesita el proyecto 
 - subir los cambios al repo 
 - hacer un pull request al repo original
-
+- esperar la probación del pull request del propietario del repo
 
 
 
