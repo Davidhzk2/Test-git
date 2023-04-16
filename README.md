@@ -25,14 +25,16 @@ Iniciar nuevos repositorios u obtener uno por medio de URL existente
 
 **Efectuar cambios:**
 
-Revisar las ediciones, elaboración de un commit 
+Revisar las ediciones que se han hecho, elaboración de un commit y más..
 
 **Manejo de ramas:**
+
+Los diferentes comandos para moverse entre las ramas locales y remotas del proyecto 
 
 
 **Historial de cambios**
 
-Navega e inspeciona la evolución de los archivos del proyecto 
+Navegar e inspecionar la evolución de los archivos del proyecto 
 
 **Guardar fragmentos de codigo:**
 
@@ -41,6 +43,8 @@ Almacenar y restaurar cambios imcompletos
 
 **Sincronizar cambios:**
 
-Intercambiar historial de version 
+Intercambiar historial de versiones, integrar cambios locales con el repositorio remoto y más..
+
+
 
 
