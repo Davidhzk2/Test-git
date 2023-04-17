@@ -13,7 +13,7 @@ Configurar la información del usuario para todos los respositorios locales.
 
 `git config`
 
-`git config --globa`
+`git config --global`
 
 **Crear repositorios**
 
@@ -27,23 +27,41 @@ Iniciar nuevos repositorios u obtener uno por medio de URL existente
 
 Revisar las ediciones que se han hecho, elaboración de un commit y más..
 
+`git status `
+
+`git add . `
+
 **Manejo de ramas:**
 
 Los diferentes comandos para moverse entre las ramas locales y remotas del proyecto 
+
+`git branch `
+
+`git checkout`
+
+`git merge`
 
 
 **Historial de cambios**
 
 Navegar e inspecionar la evolución de los archivos del proyecto 
 
+`git log `
+
 **Guardar fragmentos de codigo:**
 
 Almacenar y restaurar cambios imcompletos 
+
+`git stage`
 
 
 **Sincronizar cambios:**
 
 Intercambiar historial de versiones, integrar cambios locales con el repositorio remoto y más..
+
+`git push `
+
+`git pull`
 
 
 
