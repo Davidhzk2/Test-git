@@ -97,7 +97,8 @@ git fetch -->descargar el historial de cambios del repositorio
 git push  -->Subir  los cambios o commits de la rama local  a respositorio 
 git push -u origin [branch-name] -->Para subir los cambios de stage al repositorio por primera vez
 git push orgin [branch-name]  -->subir cambios a la rama espeficada
-git pull origin [branch-name] -->Descargar historial e incomporar cambiosa nuestro respositorio
+git pull origin [branch-name] -->Descargar historial e incomporar cambios a nuestro respositorio
+git pull --> descargar  historial e incorporarcambios sin  indicar la rama 
 
 
 //Consola
