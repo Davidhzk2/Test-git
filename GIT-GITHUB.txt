@@ -115,6 +115,15 @@ Si no puedes  subir tus cambios al respositorio original, por algun motivo como 
 - hacer un pull request al repo original
 - esperar la probación del pull request del propietario del repo
 
+//Flujos de trabajo Git y GitHub
+Flujo git 
+
+- Main 
+- Develop
+- Feacture 
+- Realese
+- Hotfix
+
 
 
 
