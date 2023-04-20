@@ -7,7 +7,7 @@ veras el codigo que se ejecuta en la consola  y una breve descripcion de lo que 
 
 Podras encontrar comandos para:
 
-**Configurar**
+> **Configurar**
 
 Configurar la información del usuario para todos los respositorios locales. 
 
@@ -15,7 +15,7 @@ Configurar la información del usuario para todos los respositorios locales.
 
 `git config --global`
 
-**Crear repositorios**
+> **Crear repositorios**
 
 Iniciar nuevos repositorios u obtener uno por medio de URL existente
 
@@ -23,7 +23,7 @@ Iniciar nuevos repositorios u obtener uno por medio de URL existente
 
 `git clone`
 
-**Efectuar cambios:**
+> **Efectuar cambios:**
 
 Revisar las ediciones que se han hecho, elaboración de un commit y más..
 
@@ -31,7 +31,7 @@ Revisar las ediciones que se han hecho, elaboración de un commit y más..
 
 `git add . `
 
-**Manejo de ramas:**
+> **Manejo de ramas:**
 
 Los diferentes comandos para moverse entre las ramas locales y remotas del proyecto 
 
@@ -42,20 +42,20 @@ Los diferentes comandos para moverse entre las ramas locales y remotas del proye
 `git merge`
 
 
-**Historial de cambios**
+> **Historial de cambios**
 
 Navegar e inspecionar la evolución de los archivos del proyecto 
 
 `git log `
 
-**Guardar fragmentos de codigo:**
+> **Guardar fragmentos de codigo:**
 
 Almacenar y restaurar cambios imcompletos 
 
 `git stage`
 
 
-**Sincronizar cambios:**
+> **Sincronizar cambios:**
 
 Intercambiar historial de versiones, integrar cambios locales con el repositorio remoto y más..
 
