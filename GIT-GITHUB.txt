@@ -105,7 +105,7 @@ git pull --> descargar  historial e incorporarcambios sin  indicar la rama
 clear -->Limpiar la consola 
 
 
-// Flujo de trabajo colaborativo 
+// Flujo de trabajo colaborativo con PRs (Pull Request)
 Si no puedes  subir tus cambios al respositorio original, por algun motivo como permisos, o el repo es privado o simplemente quieres colaboara ens ese repositorio, puedes seguir los siguientes pasos:
 
 - Hacer un fork del repositorio original 
