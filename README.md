@@ -65,9 +65,9 @@ Intercambiar historial de versiones, integrar cambios locales con el repositorio
 
 > **Flujos de Trabajo**
 
-Manejo  de ramas estandar para usar en proyectos y respaldado por las granes empresas de gestion de respositorios
+Manejo  de ramas estandar para usar en proyectos y respaldado por las grandes empresas de gestion de respositorios
 
-*** Git ***
+#### Git 
 Nombre de las ramas que se utulizaran
 - Main 
 - Develop
@@ -75,7 +75,7 @@ Nombre de las ramas que se utulizaran
 - Realease
 - Hotfix
 
-*** GitHub ***
+#### GitHub 
 Creacion y eliminación de ramas sin ningun orden en partucular
 - Master 
 - Main
