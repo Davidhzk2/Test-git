@@ -63,6 +63,9 @@ Intercambiar historial de versiones, integrar cambios locales con el repositorio
 
 `git pull`
 
+> **Flujos de Trabajo**
+
+
 
 
 
