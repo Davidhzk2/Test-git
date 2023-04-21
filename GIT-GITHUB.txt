@@ -124,6 +124,15 @@ Flujo git
 - Realese
 - Hotfix
 
+[Enlace para mayor detalle]
+
+
+Flujo GitHab
+
+Consta de crear ramas sin nungun orden o estandar de trabajo
+
+[Enlace para mayor detalle]
+
 
 
 
