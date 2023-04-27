@@ -124,6 +124,14 @@ Flujo git
 - Realese
 - Hotfix
 
+//Instalar git-flow 
+
+brev  install git-flow --> Instalar git flow en un proyecto 
+git flow  --> Motrar subcomandos  a ejecutar con git flow 
+git flow init --> inicializar un proyecto con git-flow
+git flow [subcomando] start  [name-branch]  --> iniciar una rama segun el flujo 
+git flow [subcomando] finish  [name-branch]  --> cerrar una rama segun el flujo  
+ 
 [Enlace para mayor detalle]
 
 
