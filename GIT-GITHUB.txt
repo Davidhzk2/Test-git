@@ -149,6 +149,10 @@ Git-hub pages es el servicio que nos permite desplegar nuestros proyecto sin no 
 Dejo el enlance para que te informes un poco más sobre este:
 https://pages.github.com/
 
+
+//Automatizaciones con GitHub 
+https://github.com/features/actions
+
 //Comandos más avanzados 
 
 git cherry-pick  [commit]-->
