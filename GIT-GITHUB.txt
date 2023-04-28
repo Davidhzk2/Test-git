@@ -141,7 +141,17 @@ Consta de crear ramas sin nungun orden o estandar de trabajo
 
 https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy
 
+//Comandos más avanzados 
 
+git cherry-pick  [commit]-->
+git cherry-pick --continue -->
+git cherry-pick --abort 
+
+
+git rebase [name-branch]--> traer una rama a un punto concreto  y modificar historial de los commits
+git rebase -i 
+git rebase --continue 
+git rebase --abort 
 
 
 
