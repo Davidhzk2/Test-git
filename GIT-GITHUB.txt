@@ -141,6 +141,14 @@ Consta de crear ramas sin nungun orden o estandar de trabajo
 
 https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy
 
+
+//GIT-HUB Pages 
+
+Git-hub pages es el servicio que nos permite desplegar nuestros proyecto sin no tenemos un hosting y un dominio, su alcance es limitado pero es muy util para proyectos con HTML, CSS, JAVASCRIPT, algun framework como Angula, React, Vue.
+
+Dejo el enlance para que te informes un poco más sobre este:
+https://pages.github.com/
+
 //Comandos más avanzados 
 
 git cherry-pick  [commit]-->
