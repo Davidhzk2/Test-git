@@ -8,6 +8,9 @@ basada en linux
 
 Estados para el manejo de versiones  
 Working directory - Staging area - .git diretory (Reposiotrio)
+-- CMD o Windows
+dir --> motrasr la lista de directorios en la ruta actual
+
 
 --Linux 
 ls  -->listar directorios de la ruta actual
@@ -83,6 +86,7 @@ gti checkout HEAD  --> ubicar el track (hash) donde nos encontramos adelante
 git stash -->guardar cambios de manera temporal sin que sea un commit y afecte el arbol
 git stash pop -->Recuperar o volver a un stash guardado
 git stash list --> mostrar la lista de de cambios guardados que no se han subido 
+git stash apply [posicionStash] -->aplicar ciertos cambios que estan en Stash
 git stash drop --> eliminar  un stash 
 
 
