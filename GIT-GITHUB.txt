@@ -166,8 +166,8 @@ git cherry-pick --abort
 
 git rebase [name-branch]--> traer una rama a un punto concreto  y modificar historial de los commits
 git rebase -i    -->
-git rebase --continue --> 
-git rebase --abort  -->
+git rebase --continue --> Para continuar la ejecucion de un rebase.
+git rebase --abort  --> para cancelar la ejecucion del rebase 
 
 
 git log -p
