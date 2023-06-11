@@ -165,11 +165,15 @@ git cherry-pick --abort
 
 
 git rebase [name-branch]--> traer una rama a un punto concreto  y modificar historial de los commits
-git rebase -i 
-git rebase --continue 
-git rebase --abort 
+git rebase -i    -->
+git rebase --continue --> 
+git rebase --abort  -->
 
 
+git log -p
+git diff --> ver cambios que se han hecho a archivos que no estan en el stage 
+git diff [hash]..[hash]  -->verdiferencias o todos los cambios en el tiempo
+ 
 
 
 
