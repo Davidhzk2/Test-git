@@ -5,7 +5,7 @@ En este respositorio veras los comandos más comunes que te puedes encontrar usa
 
 veras el codigo que se ejecuta en la consola  y una breve descripcion de lo que realiza cada linea de codigo. 
 
-En el archivo GIT-GITHUB.txt podras encontrar comandos para:
+En el archivo `GIT-GITHUB.txt` podras encontrar comandos para:
 
 > **Configurar**
 
@@ -85,8 +85,8 @@ Creacion y eliminación de ramas sin ningun orden en partucular
 
 
 > **Comandos Avanzados**
-
-
+`git cherry pick`
+`git rebase` 
 
 
 
