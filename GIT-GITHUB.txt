@@ -33,7 +33,7 @@ git config --global user.name "nombreuser"--> Cambiar o fijar nombre de usuario
 git config --global user.email "correo" --> Cabiar o fijar correo de git 
 git config --list --> Lista de configuracion global en nuestra maquina 
 git config --global alias.[alias] "comando al que se le quiere poner un alias"  //'log --graph --decorate --all --oneline'
-git remote add [url] -->para conectar el repositorio local con la nube
+git remote add origin [url] -->para conectar el repositorio local con la nube
 
 //Crear Repositorios
 git init [proyect-name]  --> Inicializar un proyecto
@@ -72,7 +72,7 @@ git merge [branch-name] -->Combinar cambios de la rama espeficada con la rama ac
 //Historial de cambios
 git log --> Para ver los commits o lista de cambios que se han hecho
 git log --graph  --> ver los commits como una rama o el orden 
-git log --graph  --pretty=oneline  --> ver los commits realizados de manara resumida en una linea
+git log --graph  --pretty=oneline  --> ver los commits realizados de manera resumida en una linea
 git log --graph --decorate --all --oneline --> Abreviar el hash del commit y ver todos los commits en una linea 
 
 git reflog   --> historial de interaciones que se han hecho en el git 
