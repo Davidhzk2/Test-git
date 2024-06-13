@@ -38,6 +38,7 @@ git remote add origin [url] -->para conectar el repositorio local con la nube
 //Crear Repositorios
 git init [proyect-name]  --> Inicializar un proyecto
 git clone [url] --> Clonar un repositorio de la nuve
+git clone --branch [branch] --single-branch [url] -> Clonar un repositorio de una rama especifica
 
 
 //Cambios 
@@ -64,6 +65,7 @@ git branch -d [branch-name] -->Eliminar rama
 git branch -m [branch-name]  --> Cambiar el nombre de una rama
 
 git checkout [branch-name]  --> descargar los cambios de la rama y Cambiar de rama
+git cheackout -b [branch-name] --> crear rama y cambiar directamente a esa rama 
 git swicth [branch-name] --> Cambiar de rama 
 
 git merge [branch-name] -->Combinar cambios de la rama espeficada con la rama actual
