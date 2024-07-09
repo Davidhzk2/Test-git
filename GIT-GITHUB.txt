@@ -47,6 +47,7 @@ git add README.md --> agregar README al repositorio o proyecto
 
 git diff -->comparar archivo de stagin con archivo local permite ver diferencias
 git diff [branch] --> ver las diferencias o cambios entre las ramas
+git diff [local-branch] origin/[remote-branch]  --> ver las diferencias entre rama local y rama remota  
 
 git add .               --> agregar todos los archivos modificados al staging area 
 git add [file]   -->Agregar por archivo modificado al staging area 
