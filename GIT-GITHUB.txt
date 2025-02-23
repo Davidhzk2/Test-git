@@ -108,6 +108,10 @@ git pull origin [branch-name] -->Descargar historial e incomporar cambios a nues
 git pull --> descargar  historial e incorporarcambios sin  indicar la rama 
 
 
+//Resolver errores
+git pull origin main --allow-unrelated-histories --> permitir el merge de rama local con rama remota cuando hay diferencias
+git merge origin origin/main
+
 //Consola
 clear -->Limpiar la consola 
 
